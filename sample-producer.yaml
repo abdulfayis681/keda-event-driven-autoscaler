@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
         - name: sample-producer
-          image: sample-producer:1
+          image: abdulfayis/sample-producer:latest
           ports:
             - name: sample-producer
               containerPort: 8098
