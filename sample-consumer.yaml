@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
         - name: sample-consumer
-          image: sample-consumer:1
+          image: abdulfayis/sample-consumer2:latest
           ports:
             - name: sample-consumer
               containerPort: 8099
